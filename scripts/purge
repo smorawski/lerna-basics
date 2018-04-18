@@ -1,0 +1,6 @@
+FILES = find . -type f -name '*.xenos';
+FILES =
+for filename in FILES; do
+  echo "$filename";
+done
+

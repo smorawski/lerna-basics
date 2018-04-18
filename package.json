@@ -1,0 +1,19 @@
+{
+  "name": "space-empire",
+  "version": "1.0.0",
+  "description": "Quick lerna test project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "report": "lerna exec \\$LERNA_ROOT_PATH/scripts/report --concurrency 1 --scope $sector"
+  },
+  "author": "Szymon Morawski",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.9.0"
+  }
+}
