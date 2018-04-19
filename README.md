@@ -1,5 +1,8 @@
 # Lerna Cheat Sheet
 
+## Documentation
+[https://github.com/lerna/lerna](https://github.com/lerna/lerna)
+
 ## Basic commands
 `lerna init --independent` - create lerna file. Flag `independent` defines if all packages should be versioned separatly.
 
@@ -27,6 +30,6 @@
 
 `$LERNA_ROOT_PATH` - root path of project
 
-<b>Remeber about adding slash before dollar sign, while running command with those variables!</B>
+<b>Remember about adding slash before dollar sign while running command with those variables!</B>
 
 
