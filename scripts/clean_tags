@@ -1,0 +1,1 @@
+git tag | xargs git tag -d
